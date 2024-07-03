@@ -1,0 +1,29 @@
+$primary-color: #3498db;
+
+.my-component {
+  background-color: $primary-color;
+  h1 {
+    color: white;
+  }
+}
+
+.mainbackground {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.decoration {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  color: #333;
+}

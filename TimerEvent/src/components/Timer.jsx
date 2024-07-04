@@ -28,26 +28,20 @@ const Timer = () => {
         return () => clearTimeout(timer);
     });
 
-    const timerComponents = [];
+    const formatTimeUnit = (unit) => {
+        return unit < 10 ? `0${unit}` : unit;
+    };
 
-    Object.keys(timeLeft).forEach(interval => {
-        if (!timeLeft[interval]) {
-            return;
-        }
-
-        timerComponents.push(
-            <span key={interval}>
-                {timeLeft[interval]} {interval}{" "}
-            </span>
-        );
-    });
+    const timerDisplay = `${formatTimeUnit(timeLeft.jours)}:${formatTimeUnit(timeLeft.heures)}:${formatTimeUnit(timeLeft.minutes)}:${formatTimeUnit(timeLeft.secondes)}`;
 
     return (
-        <div className="mainbackground">
-            <div className='decoration'>
-                <h1>
-                    {timerComponents.length ? timerComponents : <span>C'est l'heure des marches</span>}
-                </h1>
+        <div className='cont'>
+            <div className="mainbackground">
+                <div className='decoration'>
+                    <h1>
+                        {Object.keys(timeLeft).length ? timerDisplay : <span>C'est l'heure des marches</span>}
+                    </h1>
+                </div>
             </div>
         </div>
     );

@@ -10,6 +10,7 @@ html, body, #root {
 body{
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .cont {
@@ -47,7 +48,7 @@ body{
 
 h1 {
   font-family: Arial, sans-serif;
-  font-size: 300%;
+  font-size: 400%;
   animation: gradient 15s ease infinite;
 }
 
@@ -59,3 +60,30 @@ h1 {
   80%      { color: #004CFF;  }
   90%      { color: #732982; }
 }
+
+.level{
+  background-color: #df8989;
+  display: flex;
+  .levelimage{
+    padding: 3%;
+  }
+  .evolutionlevel{
+    display: flex;
+    ul {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      flex-grow: 1; /* Permet aux éléments <li> de prendre toute la hauteur disponible */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ccc; /* Juste pour visualiser les éléments <li> */
+    }
+  }
+}
+

@@ -1,0 +1,103 @@
+// AnimatedText.scss
+.animated-text {
+    display: flex;
+    font-family: monospace;
+    font-size: 2rem;
+  }
+  
+  .animated-char {
+    display: inline-block;
+    animation: scroll 1s steps(26) infinite;
+  
+    &:nth-child(odd) {
+      animation-duration: 1.2s;
+    }
+    &:nth-child(even) {
+      animation-duration: 1.5s;
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      content: 'A';
+    }
+    3% {
+      content: 'B';
+    }
+    7% {
+      content: 'C';
+    }
+    11% {
+      content: 'D';
+    }
+    15% {
+      content: 'E';
+    }
+    19% {
+      content: 'F';
+    }
+    23% {
+      content: 'G';
+    }
+    26% {
+      content: 'H';
+    }
+    30% {
+      content: 'I';
+    }
+    34% {
+      content: 'J';
+    }
+    38% {
+      content: 'K';
+    }
+    42% {
+      content: 'L';
+    }
+    46% {
+      content: 'M';
+    }
+    50% {
+      content: 'N';
+    }
+    53% {
+      content: 'O';
+    }
+    57% {
+      content: 'P';
+    }
+    61% {
+      content: 'Q';
+    }
+    65% {
+      content: 'R';
+    }
+    69% {
+      content: 'S';
+    }
+    73% {
+      content: 'T';
+    }
+    76% {
+      content: 'U';
+    }
+    80% {
+      content: 'V';
+    }
+    84% {
+      content: 'W';
+    }
+    88% {
+      content: 'X';
+    }
+    92% {
+      content: 'Y';
+    }
+    96% {
+      content: 'Z';
+    }
+    100% {
+      content: 'A';
+    }
+  }
+  

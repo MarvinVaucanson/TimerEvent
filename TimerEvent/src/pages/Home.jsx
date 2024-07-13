@@ -10,6 +10,8 @@ const Home = () => {
             <Timer />
             <Plot />
             <Level />
+            <Plot />
+
         </>
     ); 
 };

@@ -2,6 +2,7 @@
 import Level from '../components/Level.jsx';
 import Plot from '../components/Plot.jsx';
 import Timer from '../components/Timer.jsx'
+import Challenge from '../components/Challenge.jsx';
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Plot />
             <Level />
             <Plot />
+            <Challenge />
 
         </>
     ); 

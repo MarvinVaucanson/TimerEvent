@@ -13,6 +13,7 @@ const Challenge = () => {
         <div className='challenge'>
             <div className='mainbackground'>
                 <h2>Voici la liste des défis à accomplir</h2>
+                <h3>Pour les valider il faut envoyer une preuve par message à Baptiste</h3>
                 <FormGroup>
                     {defi.slice().map((defiValue, index) => (
                             <FormControlLabel key={index} className={accomplie[index] == 0 ? 'lielt no' : 'lielt yes'} control={

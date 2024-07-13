@@ -111,7 +111,7 @@ h1 {
     margin: 2%;
     font-size: x-large;
     .bar{
-      border: 1px solid #000000;
+      border: 1px solid $emoji-color;
       border-radius: 1%;
       margin-right: 2%;
       li{
@@ -151,7 +151,7 @@ h1 {
 }
 
 .challenge {
-  background-image: url(../assets/berth.jpg);
+  background-image: url(../assets/lama.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -164,14 +164,16 @@ h1 {
   .mainbackground {
     display: flex;
     flex-direction: column;
+    margin: 3%;
 
     .MuiFormGroup-root {
       display: flex;
       flex-wrap: wrap; // Permet le retour à la ligne
       gap: 10px;
+      flex-direction: row;
 
       .lielt {
-        flex-basis: calc(50% - 5px); // Ajustement pour deux colonnes
+        flex-basis: calc(30% - 5px); // Ajustement pour deux colonnes
         box-sizing: border-box;
         margin-bottom: 10px; // Ajouter une marge en bas pour assurer le retour à la ligne
       }

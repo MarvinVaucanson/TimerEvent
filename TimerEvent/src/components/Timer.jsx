@@ -3,7 +3,7 @@ import '../styles/style.scss';
 
 const Timer = () => {
     const calculateTimeLeft = () => {
-        const difference = +new Date('2024-08-14T12:00:00') - +new Date();
+        const difference = +new Date('2024-08-14T18:12:12') - +new Date();
         let timeLeft = {};
 
         if (difference > 0) {
@@ -39,7 +39,13 @@ const Timer = () => {
             <div className="mainbackground">
                 <div className='decoration'>
                     <h1>
-                        {Object.keys(timeLeft).length ? timerDisplay : <span>C'est l'heure des marches</span>}
+                        {Object.keys(timeLeft).length ? timerDisplay : 
+                            <div>
+                            <span>C'est l'heure des marches</span>
+                            <div>Voici la première surprise :</div>
+                            <div className='rewardfin'><a href="https://baptiste.rousselot.name/gdfwiki">BONBON GRATUIT</a></div>
+                            </div>
+                        }
                     </h1>
                 </div>
             </div>

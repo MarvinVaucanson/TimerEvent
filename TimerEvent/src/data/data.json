@@ -51,6 +51,7 @@
         "Une photo devant StEx",
         "Faire un chifoumi contre une personne du groupe",
         "Répondre au quizz MYSTERE",
+        "Répondre au SUPER quizz des copains",
         "Elle est ou Jeanne",
         "Une photo de chat mort",
         "Une photo d'un panneau rigolo",
@@ -65,7 +66,9 @@
         "Faire un doublage GDF sur 5min d'un film",
         "Déguise toi en Macron",
         "Un autre que Simon se Déguise en Simon",
-        "Une personne du GDF se déGuise en une autre du GDF"
+        "Une personne du GDF se déguise en une autre du GDF",
+        "Un avis controversé mais véridique sur Marine Lepen",
+        "Chanter le camion des potes"
     ],
     "accomplie":[
         "0",
@@ -129,6 +132,10 @@
         "0",
         "0",
         "0",        
+        "0",
+        "0",
+        "0",
+        "0",
         "0",
         "0",
         "0",

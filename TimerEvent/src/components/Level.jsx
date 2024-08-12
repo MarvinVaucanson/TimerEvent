@@ -4,7 +4,7 @@ import data from '../data/data.json';
 const Level = () => {
 
     const percent = ['1%','10%', '20%', '30%', '40%','50%','60%', '70%', '80%', '90%', '100%'];
-    const challenge = ['Plateau de Fromage','On joue au mille borne', 'masqué', 'Cocktail Misterious Club Party', 'masqué','Je clip Tutel US durant la semaine','masqué', 'Kamouflage App 2025', 'masqué', 'Je leak le mdp de Kamouflage pendant 15min', 'J’adore la mode'];
+    const challenge = ['Plateau de Fromage','On joue au mille borne', 'Stickers', 'Cocktail Misterious Club Party', 'masqué','Je clip Tutel US durant la semaine','masqué', 'Kamouflage App 2025', 'masqué', 'Je leak le mdp de Kamouflage pendant 15min', 'J’adore la mode'];
     const accomplie = data.accomplie;
     let temp = 0;
     let actual = -1;

@@ -3,7 +3,7 @@ import '../styles/style.scss';
 
 const Timer = () => {
     const calculateTimeLeft = () => {
-        const difference = +new Date('2024-08-14T18:12:12') - +new Date();
+        const difference = +new Date('2024-08-14T19:12:12') - +new Date();
         let timeLeft = {};
 
         if (difference > 0) {

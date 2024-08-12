@@ -1,0 +1,14 @@
+{
+    "questions":[
+        {
+            "id":1,
+            "question":"Comment aime tu les tortues ?",
+            "proposition":["choix 1","choix 2","choix 3","choix 4","choix 5"]
+        },
+        {
+            "id":2,
+            "question":"A quel point aime tu les chats ?",
+            "proposition":["choix 1b","choix 2b","choix 3b","choix 4b","choix 5b"]
+        }
+    ]
+}

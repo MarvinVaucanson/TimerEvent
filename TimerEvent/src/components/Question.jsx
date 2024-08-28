@@ -11,6 +11,7 @@ const Question = () => {
     return (
         <div>
             <h3>{currentQuestion.question}</h3>
+            <p>Question en cours : {state}</p>
             <Option state={state} propositions={currentQuestion.proposition}/>
         </div>
     );

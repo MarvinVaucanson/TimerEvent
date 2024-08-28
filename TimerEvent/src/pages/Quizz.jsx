@@ -1,5 +1,13 @@
 import Question from '../components/Question.jsx';
 
+let tab = {
+    "Baptiste":0,
+    "Agathe":0,
+    "Tymau":0
+}
+
+console.log(tab)
+
 const Quizz = () => {
     return (
         <>

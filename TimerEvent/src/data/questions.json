@@ -3,12 +3,26 @@
         {
             "id":1,
             "question":"Comment aime tu les tortues ?",
-            "proposition":["choix 1","choix 2","choix 3","choix 4","choix 5"]
+            "proposition":["passionnement","beaucoup","ok","bof","pas du tout"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
         },
         {
             "id":2,
             "question":"A quel point aime tu les chats ?",
-            "proposition":["choix 1b","choix 2b","choix 3b","choix 4b","choix 5b"]
+            "proposition":["passionnement","beaucoup","ok","bof","pas du tout"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
         }
     ]
 }

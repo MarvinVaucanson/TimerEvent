@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 import FormControl from '@mui/material/FormControl';
 import FormControlLabel from '@mui/material/FormControlLabel';
@@ -14,11 +15,18 @@ const getGradientColor = (index, maxIndex, addOffset = false) => {
     return `rgb(${r}, ${g}, 0, ${offset})`;
 };
 
-const Option = ({ propositions }) => {
+// eslint-disable-next-line react/prop-types
+const Option = ({ propositions, onSubmit }) => {
   const [selectedValue, setSelectedValue] = useState('');
 
   const handleRadioChange = (event) => {
     setSelectedValue(event.target.value);
+  };
+
+  const handleSubmit = () => {
+    console.log('Réponse soumise :', selectedValue);
+    onSubmit();
+    // Ici, tu pourras gérer le passage à la question suivante.
   };
 
   return (
@@ -53,7 +61,7 @@ const Option = ({ propositions }) => {
             />
           ))}
         </RadioGroup>
-        <Button>Valider</Button>
+        <Button onClick={handleSubmit}>Valider</Button>
       </FormControl>
     </div>
   );

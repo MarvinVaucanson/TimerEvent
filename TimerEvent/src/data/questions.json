@@ -23,6 +23,103 @@
                 "bof":[0,-1,1],
                 "pas du tout":[-2,2,1]
             }
+        },
+        {
+            "id":3,
+            "question":"Douze ?",
+            "proposition":["1312","12","douze","DOUZE","TG Baptiste"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
+        },
+        {
+            "id":4,
+            "question":"A quel point aime tu les chats ?",
+            "proposition":["passionnement","beaucoup","ok","bof","pas du tout"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
+        },
+        {
+            "id":5,
+            "question":"Tu bois souvent de l'alcool ?",
+            "proposition":["ENORMEMENT","beaucoup","de temps en temps","quasiment pas","Appo"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
+        },
+        {
+            "id":6,
+            "question":"Sur l'échelle du gauchisme où te place tu ?",
+            "proposition":["Fan du tonton","tu connais Patrick Balkanie ? **rire de droite**","Grand Parent de Maud","Il faut un cap clair","JEAN LUC MELANCHON, PRESENT CHAQUE SAISON","ANARCHIE"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
+        },
+        {
+            "id":7,
+            "question":"A combien de Marches à tu participé ?",
+            "proposition":["0","1","2","3"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
+        },
+        {
+            "id":8,
+            "question":"Quel études aimerais tu faire ?",
+            "proposition":["Informatique","Art","Théatre","Lettre","Science","deSco","musique","cinéma","agro"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
+        },
+        {
+            "id":9,
+            "question":"A quel point est tu en retards ?",
+            "proposition":["Toujours en avance","Un magicien est toujours à l'heure","+5min c'est ok non ?","Quart d'heure Lyonnais tu connais","30min c'est quoi dans une vie ?","J'arrive ! (+1h)"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
+        },
+        {
+            "id":10,
+            "question":"Ton prof de St Ex préféré.e",
+            "proposition":["Harrette Ourquet (j'ai jamais su écrire)","Professeur Baptiste","mr Martin","Paulin Gruffat","Vitoux"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
         }
+
     ]
 }

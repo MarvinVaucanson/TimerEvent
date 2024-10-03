@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import questions from '../data/questions.json';
 import Option from '../components/Option.jsx';
+import Result from './Result.jsx';
 
 
 const Question = () => {
@@ -11,9 +12,9 @@ const Question = () => {
 
     const handleNextQuestion = () => {
         if (state < question.length) {
-            setState(state + 1); // Incrémente l'état pour passer à la question suivante
+            setState(state + 1);
         } else {
-            console.log("Quiz terminé !");
+            console.log("Quiz terminé !"); //on fait remonter que c'est fini à quizz I guess
         }
     };
 
@@ -22,6 +23,7 @@ const Question = () => {
             <h3>{currentQuestion.question}</h3>
             <p>Question en cours : {state}</p>
             <Option state={state} propositions={currentQuestion.proposition} onSubmit={handleNextQuestion}/>
+            <Result></Result>
         </div>
     );
 };

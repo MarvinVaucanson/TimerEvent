@@ -5,11 +5,9 @@
             "question":"Comment aime tu les tortues ?",
             "proposition":["passionnement","beaucoup","ok","bof","pas du tout"],
             "personne":{
-                "passionnement":[2,2,-1],
-                "beaucoup":[1,1,2],
-                "ok":[1,1,-1],
-                "bof":[0,-1,1],
-                "pas du tout":[-2,2,1]
+                "1":[1,1,1]
+
+            
             }
         },
         {
@@ -26,8 +24,8 @@
         },
         {
             "id":3,
-            "question":"Douze ?",
-            "proposition":["1312","12","douze","DOUZE","TG Baptiste"],
+            "question":"T'es plus ?",
+            "proposition":["Soirée Ciné","Soirée Appart","Soirée Quaie","Barathon","TeufTeufClub"],
             "personne":{
                 "passionnement":[2,2,-1],
                 "beaucoup":[1,1,2],
@@ -38,7 +36,7 @@
         },
         {
             "id":4,
-            "question":"A quel point aime tu les chats ?",
+            "question":"Tu aimes spam ?",
             "proposition":["passionnement","beaucoup","ok","bof","pas du tout"],
             "personne":{
                 "passionnement":[2,2,-1],
@@ -63,7 +61,7 @@
         {
             "id":6,
             "question":"Sur l'échelle du gauchisme où te place tu ?",
-            "proposition":["Fan du tonton","tu connais Patrick Balkanie ? **rire de droite**","Grand Parent de Maud","Il faut un cap clair","JEAN LUC MELANCHON, PRESENT CHAQUE SAISON","ANARCHIE"],
+            "proposition":["Fan du tonton","tu connais Patrick Balkanie ? **rire de droite**","Grand Parent de Maud","Il faut un cap clair","LA VESTE VERTE","JEAN LUC MELANCHON, PRESENT CHAQUE SAISON","ANARCHIE"],
             "personne":{
                 "passionnement":[2,2,-1],
                 "beaucoup":[1,1,2],
@@ -87,7 +85,7 @@
         {
             "id":8,
             "question":"Quel études aimerais tu faire ?",
-            "proposition":["Informatique","Art","Théatre","Lettre","Science","deSco","musique","cinéma","agro"],
+            "proposition":["Informatique","Art","Lettre","Science","deSco","musique","cinéma","agro"],
             "personne":{
                 "passionnement":[2,2,-1],
                 "beaucoup":[1,1,2],
@@ -119,7 +117,199 @@
                 "bof":[0,-1,1],
                 "pas du tout":[-2,2,1]
             }
-        }
+        },
+        {
+            "id":11,
+            "question":"Baptiste propose de monter à fourvière après le Tasty",
+            "proposition":["Je suis déjà en haut","Chui chaud","*soupir* bon ok","sans moi","Bordel Baptiste arrete"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
+        },
+        {
+            "id":12,
+            "question":"Douze ?",
+            "proposition":["1312","12","douze","DOUZE","TG Baptiste"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
+        },
+        {
+            "id":13,
+            "question":"On se retrouve à Hotel, on mange quoi ?",
+            "proposition":["Tasty","Tacos","Indien","Bagel","Falafel","Couscous","Sandwich carrefour","lunch box maison"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            }
+        },
+        {
+           "id":14,
+            "question":"En manif tu es plus ?",
+            "proposition":["Dans le bloc","En tete","J'ai deux passion !!!! (fanfare)","Cortège étudiant","Cortège CGT","Cortège CFDT","Je viens pas","Coté FLIC (acab)"],
+            "personne":{
+                "passionnement":[2,2,-1],
+                "beaucoup":[1,1,2],
+                "ok":[1,1,-1],
+                "bof":[0,-1,1],
+                "pas du tout":[-2,2,1]
+            } 
+        },
+        {
+            "id":15,
+             "question":"Qund tu vois une pizza ta première réaction",
+             "proposition":["Y a pas assez de fromage","Y a assez de fromage"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+        },
+        {
+            "id":16,
+             "question":"Ta couleur pref ?",
+             "proposition":["Vert tortue","Bleu comme la télécabine spatiotemporel du docteur qui !","Violet","Jaune","Orange, les téléPhones là","Rouge #communisme","Arc En Ciel (pov : tu es gay)","NOIR (Comment ça mon reuf ?)","Le racisme anti blanc existe (blanc)(blanc 'est pas une couleur...TG"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+        },
+        {
+            "id":17,
+             "question":"Quel est ton orientation sexuelle",
+             "proposition":["Fromagophile","Mechanophile","Montagnophile","Egocentrique","Gauchophile","NePreferePasRepondrophile"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+        },
+        {
+            "id":18,
+             "question":"Ta musique pref ?",
+             "proposition":["Never","Gonna","Give","You","UP"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+         },
+         {
+            "id":19,
+             "question":"Si tu devais choisir un sport :",
+             "proposition":["Dans le bloc","Dans la voie","FLOORBALL","Foot","Tennis","Ski","Course","Canap","CalvinBall"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+        },
+        {
+            "id":20,
+             "question":"C'est une bonne situation ça scribe ?",
+             "proposition":["Mais, vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des rencontres, des gens qui m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seul chez moi. Et c’est assez curieux de se dire que les hasards, les rencontres forgent une destinée… Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l’interlocuteur en face, je dirais, le miroir qui vous aide à avancer. Alors ce n’est pas mon cas, comme je le disais là, puisque moi au contraire, j’ai pu ; et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie… Je ne suis qu’amour ! Et finalement, quand beaucoup de gens aujourd’hui me disent : « Mais comment fais-tu pour avoir cette humanité ? » Eh bien je leur réponds très simplement, je leur dis que c’est ce goût de l’amour, ce goût donc qui m’a poussé aujourd’hui à entreprendre une construction mécanique, mais demain, qui sait, peut-être simplement à me mettre au service de la communauté, à faire le don, le don de soi…"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+        },
+        {
+            "id":21,
+             "question":"En vrai ton style de musique pref ?",
+             "proposition":["Rock'n'roll","METAL","Pop","Jazz","Techno","Militant","Classique","Rap"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+        },
+        {
+            "id":22,
+             "question":"Ton film pref",
+             "proposition":["Star Wars","LOTR"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+         },
+         {
+            "id":23,
+             "question":"Bravo le test est fini !",
+             "proposition":["Never","Gonna","Give","You","UP"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+        },
+        {
+            "id":24,
+             "question":"Le gens disent souvent de toi que tu es :",
+             "proposition":["Con","Gentil","Un Connard","Inteligent","Spécial"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+         },
+         {
+            "id":25,
+             "question":"Ta situation amoureuse",
+             "proposition":["En couple","Co,pliqué","Celib"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+         },
+         {
+            "id":26,
+             "question":"Ta musique pref ?",
+             "proposition":["Never","Gonna","Give","You","UP"],
+             "personne":{
+                 "passionnement":[2,2,-1],
+                 "beaucoup":[1,1,2],
+                 "ok":[1,1,-1],
+                 "bof":[0,-1,1],
+                 "pas du tout":[-2,2,1]
+             } 
+         }
 
     ]
 }

@@ -26,7 +26,6 @@ const Option = ({ propositions, onSubmit }) => {
   const handleSubmit = () => {
     console.log('Réponse soumise :', selectedValue);
     onSubmit();
-    // Ici, tu pourras gérer le passage à la question suivante.
   };
 
   return (

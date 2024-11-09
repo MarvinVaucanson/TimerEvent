@@ -15,8 +15,7 @@ const getGradientColor = (index, maxIndex, addOffset = false) => {
     return `rgb(${r}, ${g}, 0, ${offset})`;
 };
 
-// eslint-disable-next-line react/prop-types
-const Option = ({ propositions, onSubmit }) => {
+const Option = ({ propositions, personne, onSubmit }) => {
   const [selectedValue, setSelectedValue] = useState('');
 
   const handleRadioChange = (event) => {
@@ -25,12 +24,12 @@ const Option = ({ propositions, onSubmit }) => {
 
   const handleSubmit = () => {
     console.log('Réponse soumise :', selectedValue);
-    onSubmit();
+    onSubmit(personne[selectedValue]);
   };
 
   return (
     <div className='options'>
-      <FormControl>
+      <FormControl className='formOption'>
         <FormLabel id="demo-radio-buttons-group-label">Sélectionnez une seule réponse</FormLabel>
         <RadioGroup
           aria-labelledby="demo-radio-buttons-group-label"
@@ -42,7 +41,7 @@ const Option = ({ propositions, onSubmit }) => {
             <FormControlLabel
               className='bouton'
               key={index}
-              value={option}
+              value={index.toString()}
               control={
                 <Radio
                   sx={{
@@ -53,14 +52,14 @@ const Option = ({ propositions, onSubmit }) => {
               }
               label={option}
               sx={{
-                backgroundColor: selectedValue === option ? (getGradientColor(index, propositions.length -1, true)) : getGradientColor(index, propositions.length - 1, false),
+                backgroundColor: selectedValue === index.toString() ? (getGradientColor(index, propositions.length -1, true)) : getGradientColor(index, propositions.length - 1, false),
                 '&.Mui-checked': {
                 },
               }}
             />
           ))}
         </RadioGroup>
-        <Button onClick={handleSubmit}>Valider</Button>
+        <Button onClick={handleSubmit} className='validationButton'>Valider</Button>
       </FormControl>
     </div>
   );

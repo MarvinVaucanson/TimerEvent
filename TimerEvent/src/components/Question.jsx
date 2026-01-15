@@ -2,6 +2,8 @@ import { useState } from 'react';
 import questions from '../data/questions.json';
 import Option from '../components/Option.jsx';
 import '../object/ScoreCalculator.jsx';
+import '../styles/question.scss';
+import { Card } from '@mui/material';
 
 // eslint-disable-next-line react/prop-types
 const Question = ({ onQuizFinish, onAnswerSubmit }) => {
@@ -21,11 +23,13 @@ const Question = ({ onQuizFinish, onAnswerSubmit }) => {
     };
 
     return (
-        <div>
-            <h3>{currentQuestion.question}</h3>
-            <p>Question en cours : {state}</p>
-            <Option state={state} propositions={currentQuestion.proposition} personne={currentQuestion.personne} onSubmit={handleNextQuestion}/>
-        </div>
+            <Card className={state === 29 ? 'main-card-region' : 'main-card'}>
+                <div className='question-title'>
+                <h3 className='title'>{currentQuestion.question}</h3>
+                <p>Question en cours : {state}</p>
+                <Option state={state} propositions={currentQuestion.proposition} personne={currentQuestion.personne} onSubmit={handleNextQuestion}/>
+                </div>
+            </Card>
     );
 };
 

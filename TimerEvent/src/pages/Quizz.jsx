@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Question from '../components/Question.jsx';
 import Result from '../components/Result.jsx';
 import ScoreCalculator from '../object/ScoreCalculator';
+import '../styles/question.scss'
 
 const Quizz = () => {
     const [isQuizFinished, setIsQuizFinished] = useState(false);
@@ -17,7 +18,10 @@ const Quizz = () => {
 
     return (
         <>
-            <h2>Bienvenue Dans ce quizz sur le GDF ! Quel membre du GDF te correspond le plus ?</h2>
+        <div className='quizz-main'>
+            <h2>Bienvenue Dans ce quizz sur le GDF !</h2>
+            <h3>Quel membre du GDF te correspond le plus ?</h3>
+        </div>
             {isQuizFinished ? <Result scores={scoreCalculator.getScores()} /> : <Question onQuizFinish={handleQuizFinish} onAnswerSubmit={handleAnswerSubmit} />}
         </>
     ); 

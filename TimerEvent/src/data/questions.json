@@ -2,8 +2,8 @@
     "questions":[
         {
             "id":1,
-            "question":"Comment aime tu les tortues ?",
-            "proposition":["passionnement","beaucoup","ok","bof","pas du tout"],
+            "question":"Comment aimes-tu les tortues ?",
+            "proposition":["passionnément","beaucoup","ok","bof","pas du tout"],
             "personne":{
                 "0":[3,2,-2,2,-2,2,1,1,1,0,0,2],
                 "1":[2,2,-2,2,-2,2,1,1,1,0,0,2],
@@ -14,8 +14,8 @@
         },
         {
             "id":2,
-            "question":"A quel point aime tu les chats ?",
-            "proposition":["passionnement","beaucoup","ok","bof","pas du tout"],
+            "question":"À quel point aimes-tu les chats ?",
+            "proposition":["passionnément","beaucoup","ok","bof","pas du tout"],
             "personne":{
                 "0":[-2,0,-2,2,2,1,2,3,0,0,0,2],
                 "1":[-2,0,-2,2,2,1,2,3,0,0,0,2],
@@ -26,8 +26,8 @@
         },
         {
             "id":3,
-            "question":"T'es plus ?",
-            "proposition":["Soirée Ciné","Soirée Appart","Soirée Quaie","Barathon","TeufTeufClub"],
+            "question":"Tu es plus ?",
+            "proposition":["Soirée ciné","Soirée appart","Soirée quai","Barathon","TeufTeufClub"],
             "personne":{
                 "0":[2,3,1,2,3,1,1,1,1,1,1,2],
                 "1":[2,2,2,2,2,2,2,2,2,2,-2,1],
@@ -39,7 +39,7 @@
         {
             "id":4,
             "question":"Tu aimes spam ?",
-            "proposition":["passionnement","beaucoup","ok","bof","pas du tout"],
+            "proposition":["passionnément","beaucoup","ok","bof","pas du tout"],
             "personne":{
                 "0":[2,2,-2,2,0,2,0,3,0,3,0,0],
                 "1":[1,1,-1,1,0,1,0,2,0,2,0,0],
@@ -51,7 +51,7 @@
         {
             "id":5,
             "question":"Tu bois souvent de l'alcool ?",
-            "proposition":["ENORMEMENT","beaucoup","de temps en temps","quasiment pas","Appo"],
+            "proposition":["ÉNORMÉMENT","beaucoup","de temps en temps","quasiment pas","Appo"],
             "personne":{
                 "0":[2,3,2,2, 1, 2, 1,-3,2,3,-2,0],
                 "1":[1,3,1,1, 0, 1, 0,-2,1,2,-1,0],
@@ -62,8 +62,8 @@
         },
         {
             "id":6,
-            "question":"Sur l'échelle du gauchisme où te place tu ?",
-            "proposition":["Fan du tonton","tu connais Patrick Balkanie ? **rire de droite**","Grand Parent de Maud","Il faut un cap clair","LA VESTE VERTE","JEAN LUC MELANCHON, PRESENT CHAQUE SAISON","ANARCHIE"],
+            "question":"Sur l'échelle du gauchisme où te places-tu ?",
+            "proposition":["Fan du tonton","Tu connais Patrick Balkany ? **rire de droite**","Grand-parent de Maud","Il faut un cap clair","LA VESTE VERTE","JEAN-LUC MÉLENCHON, PRÉSENT CHAQUE SAISON","C'est la lutte finale","ANARCHIE"],
             "personne":{
                 "0":[3,3,3,3,3,3,3,3,3,3,3,3],
                 "1":[1,1,2],
@@ -76,8 +76,8 @@
         },
         {
             "id":7,
-            "question":"A combien de Marches à tu participé ?",
-            "proposition":["0","1","2","3"],
+            "question":"A combien de Marches astu participé ?",
+            "proposition":["0","1","2","3","4"],
             "personne":{
                 "0":[2,2,-1],
                 "1":[1,1,2],
@@ -87,8 +87,8 @@
         },
         {
             "id":8,
-            "question":"Quel études aimerais tu faire ?",
-            "proposition":["Informatique","Art","Lettre","Science","deSco","musique","cinéma","agro"],
+            "question":"Quelles études aimerais-tu faire ?",
+            "proposition":["Informatique","Art","Lettres","Sciences","deSco","Musique","Cinéma","Agro"],
             "personne":{
                 "0":[2,2,-1],
                 "1":[1,1,2],
@@ -102,8 +102,8 @@
         },
         {
             "id":9,
-            "question":"A quel point est tu en retards ?",
-            "proposition":["Toujours en avance","Un magicien est toujours à l'heure","+5min c'est ok non ?","Quart d'heure Lyonnais tu connais","30min c'est quoi dans une vie ?","J'arrive ! (+1h)"],
+            "question":"À quel point es-tu en retard ?",
+            "proposition":["Toujours en avance","Un magicien est toujours à l'heure","+5 min c'est ok non ?","Quart d'heure lyonnais tu connais","30 min c'est quoi dans une vie ?","J'arrive ! (+1h)"],
             "personne":{
                 "0":[2,2,-1],
                 "1":[1,1,2],
@@ -115,8 +115,8 @@
         },
         {
             "id":10,
-            "question":"Ton prof de St Ex préféré.e",
-            "proposition":["Harrette Ourquet (j'ai jamais su écrire)","Professeur Baptiste","mr Martin","Paulin Gruffat","Vitoux"],
+            "question":"Ton prof de St Ex préféré(e)",
+            "proposition":["Harrette Ourquet (j'ai jamais su écrire)","Professeur Baptiste","M. Martin","Paulin Gruffat","Vitoux"],
             "personne":{
                 "0":[2,2,-1],
                 "1":[1,1,2],
@@ -127,8 +127,8 @@
         },
         {
             "id":11,
-            "question":"Baptiste propose de monter à fourvière après le Tasty",
-            "proposition":["Je suis déjà en haut","Chui chaud","*soupir* bon ok","sans moi","Bordel Baptiste arrete"],
+            "question":"Baptiste propose de monter à Fourvière après le Tasty",
+            "proposition":["Je suis déjà en haut","Chui chaud","*soupir* bon ok","Sans moi","Bordel Baptiste arrête"],
             "personne":{
                 "0":[2,2,-1],
                 "1":[1,1,2],
@@ -151,8 +151,8 @@
         },
         {
             "id":13,
-            "question":"On se retrouve à Hotel, on mange quoi ?",
-            "proposition":["Tasty","Tacos","Indien","Bagel","Falafel","Couscous","Sandwich carrefour","lunch box maison"],
+            "question":"On se retrouve à Hôtel, on mange quoi ?",
+            "proposition":["Tasty","Tacos","Indien","Bagel","Falafel","Couscous","Sandwich Carrefour","Lunch box maison"],
             "personne":{
                 "0":[2,2,-1],
                 "1":[1,1,2],
@@ -164,10 +164,10 @@
                 "7":[-2,2,1]
             }
         },
-        {
-           "id":14,
-            "question":"En manif tu es plus ?",
-            "proposition":["Dans le bloc","En tete","J'ai deux passion !!!! (fanfare)","Cortège étudiant","Cortège CGT","Cortège CFDT","Je viens pas","Coté FLIC (acab)"],
+          {
+              "id":14,
+                "question":"En manif tu es plus ?",
+                "proposition":["Dans le bloc","En tête","J'ai deux passions !!!! (fanfare)","Cortège étudiant","Cortège CGT","Cortège CFDT","Je viens pas","Côté FLIC (ACAB)"],
             "personne":{
                 "0":[2,2,-1],
                 "1":[1,1,2],
@@ -181,7 +181,7 @@
         },
         {
             "id":15,
-             "question":"Qund tu vois une pizza ta première réaction",
+             "question":"Quand tu vois une pizza, ta première réaction ?",
              "proposition":["Y a pas assez de fromage","Y a assez de fromage"],
              "personne":{
                  "0":[2,2,-1],
@@ -190,8 +190,8 @@
         },
         {
             "id":16,
-             "question":"Ta couleur pref ?",
-             "proposition":["Vert tortue","Bleu comme la télécabine spatiotemporel du docteur qui !","Violet","Jaune","Orange, les téléPhones là","Rouge #communisme","Arc En Ciel (pov : tu es gay)","NOIR (Comment ça mon reuf ?)","Le racisme anti blanc existe (blanc)(blanc c'est pas une couleur...TG"],
+             "question":"Ta couleur préférée ?",
+             "proposition":["Vert tortue","Bleu comme la télécabine spatiotemporelle du Docteur Who !","Violet","Jaune","Orange, les téléphones là","Rouge #communisme","Arc-en-ciel (pov : tu es gay)","NOIR (Comment ça mon reuf ?)","Le racisme anti-blanc existe (blanc) (blanc c'est pas une couleur... TG)"],
              "personne":{
                  "0":[2,2,-1],
                  "1":[1,1,2],
@@ -206,8 +206,8 @@
         },
         {
             "id":17,
-             "question":"Quel est ton orientation sexuelle",
-             "proposition":["Fromagophile","Mechanophile","Montagnophile","Egocentrique","Gauchophile","NePreferePasRepondrophile"],
+             "question":"Quelle est ton orientation sexuelle ?",
+             "proposition":["Fromagophile","Mécanophile","Montagnophile","Égocentrique","Gauchophile","NePréférepasRépondrephile"],
              "personne":{
                 "0":[2,2,-1],
                 "1":[1,1,2],
@@ -219,8 +219,8 @@
         },
         {
             "id":18,
-             "question":"Ta musique pref ?",
-             "proposition":["Never","Gonna","Give","You","UP"],
+             "question":"Ta musique préférée ?",
+             "proposition":["Never","Gonna","Give","You","Up"],
              "personne":{
                  "0":[2,2,-1],
                  "1":[1,1,2],
@@ -229,10 +229,10 @@
                  "4":[-2,2,1]
              } 
          },
-         {
-            "id":19,
-             "question":"Si tu devais choisir un sport :",
-             "proposition":["Dans le bloc","Dans la voie","FLOORBALL","Foot","Tennis","Ski","Course","Canap","CalvinBall"],
+            {
+                "id":19,
+                 "question":"Si tu devais choisir un sport :",
+                 "proposition":["Dans le bloc","Dans la voie","FLOORBALL","Foot","Tennis","Ski","Course","Canap'","Calvinball"],
              "personne":{
                 "0":[2,2,-1],
                 "1":[1,1,2],
@@ -247,7 +247,7 @@
         },
         {
             "id":20,
-             "question":"C'est une bonne situation ça scribe ?",
+             "question":"C'est une bonne situation, ça, scribe ?",
              "proposition":["Mais, vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des rencontres, des gens qui m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seul chez moi. Et c’est assez curieux de se dire que les hasards, les rencontres forgent une destinée… Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l’interlocuteur en face, je dirais, le miroir qui vous aide à avancer. Alors ce n’est pas mon cas, comme je le disais là, puisque moi au contraire, j’ai pu ; et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie… Je ne suis qu’amour ! Et finalement, quand beaucoup de gens aujourd’hui me disent : « Mais comment fais-tu pour avoir cette humanité ? » Eh bien je leur réponds très simplement, je leur dis que c’est ce goût de l’amour, ce goût donc qui m’a poussé aujourd’hui à entreprendre une construction mécanique, mais demain, qui sait, peut-être simplement à me mettre au service de la communauté, à faire le don, le don de soi…"],
              "personne":{
                  "0":[2,2,-1]
@@ -255,44 +255,43 @@
         },
         {
             "id":21,
-             "question":"En vrai ton style de musique pref ?",
-             "proposition":["Rock'n'roll","METAL","Pop","Jazz","Techno","Militant","Classique","Rap"],
+             "question":"En vrai, ton style de musique préféré ?",
+             "proposition":["Metal","Rock'n'roll","Pop","Jazz","Techno","Militant","Classique","Rap"],
              "personne":{
                  "0":[2,2,-1],
                  "1":[1,1,2],
                  "2":[1,1,-1],
                  "3":[0,-1,1],
                  "4":[-2,2,1],
-                    "5":[-2,2,1],
-                    "6":[-2,2,1],
-                    "7":[-2,2,1]
+                 "5":[-2,2,1],
+                 "6":[-2,2,1],
+                "7":[-2,2,1]
              } 
         },
         {
             "id":22,
-             "question":"Ton film pref",
-             "proposition":["Star Wars","LOTR"],
+             "question":"Ton film préféré ?",
+             "proposition":["Star Wars","Le Seigneur des Anneaux"],
              "personne":{
                  "0":[2,2,-1],
                  "1":[1,1,2]
              } 
-         },
-         {
+        },
+        {
             "id":23,
-             "question":"Bravo le test est fini !",
-             "proposition":["Never","Gonna","Give","You","UP"],
-             "personne":{
-                 "0":[2,2,-1],
-                 "1":[1,1,2],
-                 "2":[1,1,-1],
-                 "3":[0,-1,1],
-                 "4":[-2,2,1]
-             } 
+            "question":"Tu ferais quoi avec une bâche ?",
+            "proposition":["Un feu","Une barricade","Une banderole","Une protection contre la pluie"],
+            "personne":{
+                "0":[2,2,-1],
+                "1":[1,1,2],
+                "2":[1,1,-1],
+                "3":[0,-1,1]
+            }
         },
         {
             "id":24,
-             "question":"Le gens disent souvent de toi que tu es :",
-             "proposition":["Con","Gentil","Un Connard","Inteligent","Spécial"],
+             "question":"Les gens disent souvent de toi que tu es :",
+             "proposition":["Con","Gentil","Un connard","Intelligent","Spécial"],
              "personne":{
                  "0":[2,2,-1],
                  "1":[1,1,2],
@@ -301,20 +300,20 @@
                  "4":[-2,2,1]
              } 
          },
-         {
-            "id":25,
-             "question":"Ta situation amoureuse",
-             "proposition":["En couple","Compliqué","Celib"],
+            {
+                "id":25,
+                 "question":"Ta situation amoureuse",
+                 "proposition":["En couple","Compliqué","Célibataire"],
              "personne":{
                  "0":[2,2,-1],
                  "1":[1,1,2],
                  "2":[1,1,-1]
              } 
          },
-         {
-            "id":26,
-             "question":"Ta musique pref ?",
-             "proposition":["Never","Gonna","Give","You","UP"],
+            {
+                "id":26,
+                 "question":"Ta musique préférée ?",
+                 "proposition":["Stranded","PTSMR","Alexander Hamilton","CIELEUH ! Tu m'avais pas dit que t'étais une magicienneuh","Erica"],
              "personne":{
                  "0":[2,2,-1],
                  "1":[1,1,2],
@@ -323,10 +322,10 @@
                  "4":[-2,2,1]
              } 
          },
-         {
-            "id":27,
-             "question":"Tu es plus Tabouret ou Pédiluve ?",
-             "proposition":["Topinanbour","Abricot","Larinx","Eunologue","Huitre"],
+            {
+                "id":27,
+                 "question":"Tu es plus tabouret ou pédiluve ?",
+                 "proposition":["Topinambour","Abricot","Larynx","Eunologue","Huître"],
              "personne":{
                  "0":[2,2,-1],
                  "1":[1,1,2],
@@ -334,7 +333,39 @@
                  "3":[0,-1,1],
                  "4":[-2,2,1]
              }
-         }
-
+         },
+        {
+            "id":28,
+            "question":"Baptiste propose d'aller à la montagne ce week-end",
+            "proposition":["J'y suis déjà","Chui chaud","*soupir* bon ok","Sans moi","Bordel Baptiste arrête"],
+            "personne":{
+                "0":[2,2,-1],
+                "1":[1,1,2],
+                "2":[1,1,-1],
+                "3":[0,-1,1],
+                "4":[-2,2,1]
+            }
+        },
+        {
+            "id":29,
+            "question":"Cette question est sponsorisée par la République populaire d'Auvergne-Rhône-Alpes",
+            "proposition":["Vive la région !"],
+            "personne":{
+                "0":[2,2,-1],
+                "1":[1,1,2]
+            }
+        },
+        {
+            "id":30,
+             "question":"Bravo, le test est fini ! Tu as aimé ?",
+             "proposition":["C'était incroyable","Sympa","...","Baptiste, t'es pas drôle"],
+             "personne":{
+                 "0":[2,2,-1],
+                 "1":[1,1,2],
+                 "2":[1,1,-1],
+                 "3":[0,-1,1],
+                 "4":[-2,2,1]
+             } 
+        }
     ]
 }

@@ -12,7 +12,7 @@ class ScoreCalculator {
             "Marion": 0,
             "Emma": 0,
             "Chloé": 0,
-            "Titouan": 0,
+            "Titouan": 0
         };
     }
 
